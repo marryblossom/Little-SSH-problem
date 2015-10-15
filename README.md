@@ -4,5 +4,5 @@
 ##如果需要修改git中的邮箱，需要手动修改，并保存。
 利用atom 修改 `atom id_rsa.pub`
 ##重新生成SSH，执行命令
-`sh-keygen -t rsa -C "mltian@thoughtworks.com"`
+`ssh-keygen -t rsa -C "mltian@thoughtworks.com"`
 ##在id_rsa.pub中查看新的ssh，并添加到github上即可。
